@@ -107,17 +107,17 @@
 		581B8DE420DB87800013457E /* EmojiView */ = {
 			isa = PBXGroup;
 			children = (
+				581B8DEE20DB87800013457E /* JSEmoji.h */,
+				581B8DE920DB87800013457E /* JSEmoji.m */,
+				581B8DEC20DB87800013457E /* JSEmojiView.h */,
 				581B8DE520DB87800013457E /* JSEmojiView.m */,
+				581B8DE820DB87800013457E /* JSHeaderScrollView.h */,
 				581B8DE620DB87800013457E /* JSCollectionViewCell.m */,
 				581B8DE720DB87800013457E /* emoji.json */,
-				581B8DE820DB87800013457E /* JSHeaderScrollView.h */,
-				581B8DE920DB87800013457E /* JSEmoji.m */,
 				581B8DEA20DB87800013457E /* JSFooterScrollView.h */,
-				581B8DEB20DB87800013457E /* JSCollectionViewCell.h */,
-				581B8DEC20DB87800013457E /* JSEmojiView.h */,
 				581B8DED20DB87800013457E /* JSHeaderScrollView.m */,
-				581B8DEE20DB87800013457E /* JSEmoji.h */,
 				581B8DEF20DB87800013457E /* JSFooterScrollView.m */,
+				581B8DEB20DB87800013457E /* JSCollectionViewCell.h */,
 			);
 			path = EmojiView;
 			sourceTree = "<group>";
