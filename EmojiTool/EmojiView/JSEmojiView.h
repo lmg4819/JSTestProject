@@ -10,9 +10,11 @@
 
 @protocol JSEmojiViewDelegate <NSObject>
 
+@optional
 -(void)didSelectEmoji:(NSString *)emoji;
 -(void)backspaceText;
 -(void)emojiSendBtn:(id)sender;
+
 @end
 
 @interface JSEmojiView : UIView

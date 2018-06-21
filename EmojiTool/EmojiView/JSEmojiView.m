@@ -37,7 +37,7 @@
     static  JSEmojiView *emojiView;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        emojiView = [[self alloc]initWithFrame:CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width, 216.0)];
+        emojiView = [[self alloc]initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height-216.0, [[UIScreen mainScreen] bounds].size.width, 216.0)];
     });
     return emojiView;
 }

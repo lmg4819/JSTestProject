@@ -17,8 +17,8 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(10, 10, frame.size.width, 20)];
-        label.textColor = [UIColor lightGrayColor];
+        UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(10, 5, frame.size.width, 20)];
+        label.textColor = [UIColor whiteColor];
         label.font = [UIFont systemFontOfSize:15];
         [self addSubview:label];
         _label = label;

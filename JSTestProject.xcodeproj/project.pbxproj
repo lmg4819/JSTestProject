@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		581B8DB520DB7DA10013457E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 581B8DB420DB7DA10013457E /* AppDelegate.m */; };
+		581B8DB820DB7DA10013457E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581B8DB720DB7DA10013457E /* ViewController.m */; };
+		581B8DBB20DB7DA10013457E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581B8DB920DB7DA10013457E /* Main.storyboard */; };
+		581B8DBD20DB7DA20013457E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581B8DBC20DB7DA20013457E /* Assets.xcassets */; };
+		581B8DC020DB7DA20013457E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581B8DBE20DB7DA20013457E /* LaunchScreen.storyboard */; };
+		581B8DC320DB7DA20013457E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 581B8DC220DB7DA20013457E /* main.m */; };
+		581B8DF520DB87800013457E /* JSEmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581B8DE520DB87800013457E /* JSEmojiView.m */; };
+		581B8DF620DB87800013457E /* JSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 581B8DE620DB87800013457E /* JSCollectionViewCell.m */; };
+		581B8DF720DB87800013457E /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = 581B8DE720DB87800013457E /* emoji.json */; };
+		581B8DF820DB87800013457E /* JSEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 581B8DE920DB87800013457E /* JSEmoji.m */; };
+		581B8DF920DB87800013457E /* JSHeaderScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581B8DED20DB87800013457E /* JSHeaderScrollView.m */; };
+		581B8DFA20DB87800013457E /* JSFooterScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581B8DEF20DB87800013457E /* JSFooterScrollView.m */; };
+		581B8DFB20DB87800013457E /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581B8DF220DB87800013457E /* HPGrowingTextView.m */; };
+		581B8DFC20DB87800013457E /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 581B8DF320DB87800013457E /* HPTextViewInternal.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		581B8DB020DB7DA10013457E /* JSTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		581B8DB320DB7DA10013457E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		581B8DB420DB7DA10013457E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		581B8DB620DB7DA10013457E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		581B8DB720DB7DA10013457E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		581B8DBA20DB7DA10013457E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		581B8DBC20DB7DA20013457E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		581B8DBF20DB7DA20013457E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		581B8DC120DB7DA20013457E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581B8DC220DB7DA20013457E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		581B8DE520DB87800013457E /* JSEmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSEmojiView.m; sourceTree = "<group>"; };
+		581B8DE620DB87800013457E /* JSCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCollectionViewCell.m; sourceTree = "<group>"; };
+		581B8DE720DB87800013457E /* emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emoji.json; sourceTree = "<group>"; };
+		581B8DE820DB87800013457E /* JSHeaderScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSHeaderScrollView.h; sourceTree = "<group>"; };
+		581B8DE920DB87800013457E /* JSEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSEmoji.m; sourceTree = "<group>"; };
+		581B8DEA20DB87800013457E /* JSFooterScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSFooterScrollView.h; sourceTree = "<group>"; };
+		581B8DEB20DB87800013457E /* JSCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCollectionViewCell.h; sourceTree = "<group>"; };
+		581B8DEC20DB87800013457E /* JSEmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSEmojiView.h; sourceTree = "<group>"; };
+		581B8DED20DB87800013457E /* JSHeaderScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSHeaderScrollView.m; sourceTree = "<group>"; };
+		581B8DEE20DB87800013457E /* JSEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSEmoji.h; sourceTree = "<group>"; };
+		581B8DEF20DB87800013457E /* JSFooterScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSFooterScrollView.m; sourceTree = "<group>"; };
+		581B8DF120DB87800013457E /* HPTextViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTextViewInternal.h; sourceTree = "<group>"; };
+		581B8DF220DB87800013457E /* HPGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGrowingTextView.m; sourceTree = "<group>"; };
+		581B8DF320DB87800013457E /* HPTextViewInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTextViewInternal.m; sourceTree = "<group>"; };
+		581B8DF420DB87800013457E /* HPGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGrowingTextView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		581B8DAD20DB7DA10013457E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		581B8DA720DB7DA10013457E = {
+			isa = PBXGroup;
+			children = (
+				581B8DB220DB7DA10013457E /* JSTestProject */,
+				581B8DB120DB7DA10013457E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		581B8DB120DB7DA10013457E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				581B8DB020DB7DA10013457E /* JSTestProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		581B8DB220DB7DA10013457E /* JSTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				581B8DE320DB87800013457E /* EmojiTool */,
+				581B8DB320DB7DA10013457E /* AppDelegate.h */,
+				581B8DB420DB7DA10013457E /* AppDelegate.m */,
+				581B8DB620DB7DA10013457E /* ViewController.h */,
+				581B8DB720DB7DA10013457E /* ViewController.m */,
+				581B8DB920DB7DA10013457E /* Main.storyboard */,
+				581B8DBC20DB7DA20013457E /* Assets.xcassets */,
+				581B8DBE20DB7DA20013457E /* LaunchScreen.storyboard */,
+				581B8DC120DB7DA20013457E /* Info.plist */,
+				581B8DC220DB7DA20013457E /* main.m */,
+			);
+			path = JSTestProject;
+			sourceTree = "<group>";
+		};
+		581B8DE320DB87800013457E /* EmojiTool */ = {
+			isa = PBXGroup;
+			children = (
+				581B8DE420DB87800013457E /* EmojiView */,
+				581B8DF020DB87800013457E /* GrowingTextView */,
+			);
+			path = EmojiTool;
+			sourceTree = SOURCE_ROOT;
+		};
+		581B8DE420DB87800013457E /* EmojiView */ = {
+			isa = PBXGroup;
+			children = (
+				581B8DE520DB87800013457E /* JSEmojiView.m */,
+				581B8DE620DB87800013457E /* JSCollectionViewCell.m */,
+				581B8DE720DB87800013457E /* emoji.json */,
+				581B8DE820DB87800013457E /* JSHeaderScrollView.h */,
+				581B8DE920DB87800013457E /* JSEmoji.m */,
+				581B8DEA20DB87800013457E /* JSFooterScrollView.h */,
+				581B8DEB20DB87800013457E /* JSCollectionViewCell.h */,
+				581B8DEC20DB87800013457E /* JSEmojiView.h */,
+				581B8DED20DB87800013457E /* JSHeaderScrollView.m */,
+				581B8DEE20DB87800013457E /* JSEmoji.h */,
+				581B8DEF20DB87800013457E /* JSFooterScrollView.m */,
+			);
+			path = EmojiView;
+			sourceTree = "<group>";
+		};
+		581B8DF020DB87800013457E /* GrowingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				581B8DF120DB87800013457E /* HPTextViewInternal.h */,
+				581B8DF220DB87800013457E /* HPGrowingTextView.m */,
+				581B8DF320DB87800013457E /* HPTextViewInternal.m */,
+				581B8DF420DB87800013457E /* HPGrowingTextView.h */,
+			);
+			path = GrowingTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		581B8DAF20DB7DA10013457E /* JSTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581B8DC620DB7DA20013457E /* Build configuration list for PBXNativeTarget "JSTestProject" */;
+			buildPhases = (
+				581B8DAC20DB7DA10013457E /* Sources */,
+				581B8DAD20DB7DA10013457E /* Frameworks */,
+				581B8DAE20DB7DA10013457E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSTestProject;
+			productName = JSTestProject;
+			productReference = 581B8DB020DB7DA10013457E /* JSTestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		581B8DA820DB7DA10013457E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = we;
+				TargetAttributes = {
+					581B8DAF20DB7DA10013457E = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 581B8DAB20DB7DA10013457E /* Build configuration list for PBXProject "JSTestProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 581B8DA720DB7DA10013457E;
+			productRefGroup = 581B8DB120DB7DA10013457E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				581B8DAF20DB7DA10013457E /* JSTestProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		581B8DAE20DB7DA10013457E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581B8DC020DB7DA20013457E /* LaunchScreen.storyboard in Resources */,
+				581B8DBD20DB7DA20013457E /* Assets.xcassets in Resources */,
+				581B8DF720DB87800013457E /* emoji.json in Resources */,
+				581B8DBB20DB7DA10013457E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		581B8DAC20DB7DA10013457E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581B8DF520DB87800013457E /* JSEmojiView.m in Sources */,
+				581B8DF920DB87800013457E /* JSHeaderScrollView.m in Sources */,
+				581B8DB820DB7DA10013457E /* ViewController.m in Sources */,
+				581B8DF620DB87800013457E /* JSCollectionViewCell.m in Sources */,
+				581B8DFC20DB87800013457E /* HPTextViewInternal.m in Sources */,
+				581B8DC320DB7DA20013457E /* main.m in Sources */,
+				581B8DFA20DB87800013457E /* JSFooterScrollView.m in Sources */,
+				581B8DFB20DB87800013457E /* HPGrowingTextView.m in Sources */,
+				581B8DB520DB7DA10013457E /* AppDelegate.m in Sources */,
+				581B8DF820DB87800013457E /* JSEmoji.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		581B8DB920DB7DA10013457E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				581B8DBA20DB7DA10013457E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		581B8DBE20DB7DA20013457E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				581B8DBF20DB7DA20013457E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		581B8DC420DB7DA20013457E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		581B8DC520DB7DA20013457E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		581B8DC720DB7DA20013457E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KW5C5E6ETD;
+				INFOPLIST_FILE = JSTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qwqwerqwe.JSTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		581B8DC820DB7DA20013457E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KW5C5E6ETD;
+				INFOPLIST_FILE = JSTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qwqwerqwe.JSTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		581B8DAB20DB7DA10013457E /* Build configuration list for PBXProject "JSTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581B8DC420DB7DA20013457E /* Debug */,
+				581B8DC520DB7DA20013457E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		581B8DC620DB7DA20013457E /* Build configuration list for PBXNativeTarget "JSTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581B8DC720DB7DA20013457E /* Debug */,
+				581B8DC820DB7DA20013457E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 581B8DA820DB7DA10013457E /* Project object */;
+}
