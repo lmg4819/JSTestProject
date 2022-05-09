@@ -20,6 +20,8 @@
     [self test];
     [self test1];
     [self test2];
+    [self test3];
+    [self test4];
     
     return YES;
 }
@@ -34,6 +36,14 @@
 }
 
 - (void)test2 {
+    
+}
+
+- (void)test3 {
+    
+}
+
+- (void)test4 {
     
 }
 
